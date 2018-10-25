@@ -20,6 +20,7 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('secret'),
             'type' => 'PREMIUM',
             'remember_token' => str_random(10),
+            'api_token' => str_random(10),
             'created_at'   => date('Y-m-d H:i:s'),
             'updated_at'   => date('Y-m-d H:i:s')
         ]);
@@ -32,6 +33,7 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('secret'),
             'type' => 'PREMIUM',
             'remember_token' => str_random(10),
+            'api_token' => str_random(10),
             'created_at'   => date('Y-m-d H:i:s'),
             'updated_at'   => date('Y-m-d H:i:s')
         ]);
@@ -44,8 +46,9 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('secret'),
             'type' => 'REGULER',
             'remember_token' => str_random(10),
-            'created_at'   => date('Y-m-d H:i:s'),
-            'updated_at'   => date('Y-m-d H:i:s')
+            'api_token'     => str_random(10),
+            'created_at'    => date('Y-m-d H:i:s'),
+            'updated_at'    => date('Y-m-d H:i:s')
         ]);
     }
 }

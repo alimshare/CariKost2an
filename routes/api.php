@@ -17,7 +17,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// Route::group(['middleware' => 'auth:api'], function() {
+Route::group(['middleware' => 'auth:api'], function() {
 	
 	Route::get('rooms',          'Api\RoomController@all');
 	Route::get('rooms/{id}',     'Api\RoomController@get');
@@ -29,4 +29,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 	Route::get('rooms/{id}/check', 	'Api\RoomController@check');
 	Route::get('rooms/{id}/detail',	'Api\RoomController@detail');
     
-// });
+});
