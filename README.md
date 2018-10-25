@@ -1,5 +1,5 @@
 # CariKost2an
-Ini merupakan repository untuk contoh prototipe API untuk portal pencarian kost2an. 
+Ini merupakan repository untuk prototipe API untuk menajemen ruangan pada portal pencarian kost2an. 
 
 ## Installation
 Clone projek ke local komputer dengan menggunakan perintah berikut :
