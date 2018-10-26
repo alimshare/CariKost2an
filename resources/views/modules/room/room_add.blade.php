@@ -50,7 +50,7 @@
                       
                   </div>
                   <div class="card-footer">
-                    <a href="{{ url('buku') }}" class="btn btn-outline-secondary pull-left" id="btnCancel"> <i class="icon-arrow-left"></i> Back</a>
+                    <a href="{{ url('room') }}" class="btn btn-outline-secondary pull-left" id="btnCancel"> <i class="icon-arrow-left"></i> Back</a>
                     <button type="submit" class="btn btn-outline-primary pull-right" id="btnSave"> <i class="fa fa-save"></i> Save</button>
                   </div>
                 </div>

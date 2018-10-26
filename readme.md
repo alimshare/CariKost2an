@@ -30,3 +30,5 @@ php artisan serve
 
 Untuk dokumentasi mengenai API yang tersedia, silahkan dilihat pada link berikut : [Documentation](https://documenter.getpostman.com/view/3418794/RWgxvFNc)
 
+atau silahkan download dokumentasi API berikut pada link berikut : [POSTMAN_COLLECTION](https://www.dropbox.com/s/csv2aej82eir6fx/CariKost2an.postman_collection_v21.json?dl=0)
+
